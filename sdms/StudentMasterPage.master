@@ -1,0 +1,64 @@
+﻿<%@ Master Language="VB" CodeFile="StudentMasterPage.master.vb" Inherits="StudentMasterPage" %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+     <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            width: 461px;
+            height: 109px;
+        }
+        .auto-style3 {
+            font-size: x-large;
+            text-align: center;
+            width: 476px;
+        }
+    </style>
+    <link href="css/menustyle.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+     <div style ="width:100%;">
+            <div style="margin: auto auto auto auto;position: relative;width: 1015px; background-color: whitesmoke; top: 1px; left: -39px;">
+                <table class="auto-style1">
+                    <tr>
+                        <td>
+                            <asp:Image ID="Image1" runat="server" ImageUrl="~/images/SchoolLogo.PNG" class="auto-style2" />
+                        <td style="vertical-align: top">
+                            <h2 class="auto-style3">School Database Managment System</h2>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><hr />&nbsp;<div style ="float:right">&nbsp;<asp:Label ID="lblStudent" runat="server"></asp:Label></div>
+                        </td>
+                    </tr>
+                </table>
+                <asp:Menu ID="Menu1" CssClass="NavigationMenu" SkinID="1"
+                    StaticDisplayLevels="1" DynamicHorizontalOffset="1"
+                    StaticSubMenuIndent="1px" MaximumDynamicDisplayLevels="4"
+                    Orientation="Horizontal"
+                    DynamicPopOutImageUrl="~/Images/right-arrow.gif"
+                    StaticPopOutImageUrl="~/Images/drop-arrow.gif"
+                    runat="server" Height="30px" Width="100%" SkipLinkText="">
+                    <LevelMenuItemStyles>
+                        <asp:MenuItemStyle CssClass="main_menu" />
+                        <asp:MenuItemStyle CssClass="level_menu" />
+                    </LevelMenuItemStyles>
+
+                </asp:Menu>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
+

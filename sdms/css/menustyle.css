@@ -1,0 +1,103 @@
+.main_menu {
+    width: auto;
+    color: #fff !important;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 5px;
+}
+
+    .main_menu:hover {
+            background-image: url(../Images/bg-blue.png);
+     }
+
+.level_menu {
+    width: 110px;
+    background-color: skyblue;
+    color: #fff !important;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    /*margin-top: 5px;*/
+}
+    .level_menu:hover {
+    background-color: darkblue;
+
+    }
+.selected {
+    color: #fff;
+}
+
+
+.NavigationMenu {
+    font-family: Verdana;
+    font-size: 10pt;
+    color: #FFF;
+    font-weight: 600;
+    z-index: 101;
+    background-image: url(../Images/bg-black.gif);
+}
+
+    .NavigationMenu:hover {
+        background-color: aqua;
+    }
+
+
+.modalPopup {
+    background-color: #FFFFFF;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 500px;
+    height: auto;
+}
+
+.StdTable
+{
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    width:100%;
+    padding:4px;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+}
+.tablecss {
+border-spacing:0px;
+    width: 1010px;
+}
+.tablecss td {
+    border:solid thin grey;
+    padding:5px;
+    border-spacing:0px;
+}
+.modalBackground {
+    background-color: black;
+    filter: alpha(opacity=90);
+    opacity: 0.8;
+}
+
+
+.tblpopup {
+	border :thin solid #000000;
+	font-size :14px;
+	margin-left :auto ;
+	margin-right :auto ;
+	background-color :#EEE;
+	color :#888;
+    width:570px;
+    padding:10px;
+}
+
+.divstyle {
+	margin-right :auto ;
+    overflow: scroll;
+    max-height: 600px;
+    width:600px;
+
+}

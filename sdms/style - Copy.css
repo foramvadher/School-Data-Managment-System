@@ -1,0 +1,129 @@
+.staticMenuItemStyle {
+text-align:center;
+display:block;
+padding-left:2px;
+padding-right:2px;
+margin-left:0;
+}
+
+.staticMenuItemSelectedStyle {
+border:solid 1px #000;
+}
+
+.staticHoverStyle {
+background-image:url(Images/bg-black.gif);
+}
+
+.menuItem {
+display:block;
+}
+
+.dynamicMenuItemStyle {
+border:solid 1px #000;
+background-color:Silver;
+color:Red;
+z-index:200;
+position:relative;
+}
+
+.background {
+border:solid 1px #000;
+background-image:url(Images/bg-black.gif);
+}
+
+.NavigationMenu
+{
+    top:0px;
+    font-family: Verdana;
+    font-size: 10pt;
+    color: #FFF;
+    font-weight: 600;
+    z-index: 101;
+    background-image: url(Images/bg-black.gif);
+}
+
+#h {
+background:#CCCFFF;
+padding:5px 0 6px 10px;
+}
+
+#e {
+border:solid 1px #919191;
+background-image:url(Images/sub.gif);
+padding:0 0 1px;
+}
+
+.menuItemMouseOver,.menuItemSelected {
+border:solid 1px Navy;
+background-image:url(Images/bg-black.gif);
+}
+
+.NavigationMenu A:link,.NavigationMenu A:visited,.NavigationMenu A:active {
+text-decoration:none;
+color:#FFF;
+display:block;
+padding-right:50px;
+}
+
+.currentNodeStyle,.nodeStyle,.rootNodeStyle,a.siteMapPath {
+text-decoration:none;
+font-family:Verdana;
+font-size:10pt;
+}
+.StdTable
+{
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    width:100%;
+    padding:4px;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+}
+.tablecss {
+border:solid 1px grey;
+border-spacing:0px;
+}
+/*.tablecss td {
+    border:solid thin grey;
+    padding:5px;
+    border-spacing:0px;
+}*/
+.modalBackground {
+    background-color: black;
+    filter: alpha(opacity=90);
+    opacity: 0.8;
+}
+
+.modalPopup {
+    background-color: #FFFFFF;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 500px;
+    height: auto;
+}
+
+.tblpopup {
+	border :thin solid #000000;
+	font-size :14px;
+	margin-left :auto ;
+	margin-right :auto ;
+	background-color :#EEE;
+	color :#888;
+    width:570px;
+    padding:10px;
+}
+
+.divstyle {
+	margin-right :auto ;
+    overflow: scroll;
+    max-height: 600px;
+    width:600px;
+
+}

@@ -1,0 +1,28 @@
+﻿<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+<asp:Label runat="server" ForeColor="#585880" Font-Size="0.9em" Font-Names="Verdana"  />
+
+<asp:Calendar runat="server" BorderStyle="double" BorderColor="#E7E5DB" BorderWidth="2" BackColor="#F8F7F4"   Font-Size=".9em" Font-Names="Verdana">
+    <TodayDayStyle BackColor="#F8F7F4" BorderWidth="1" BorderColor="#585880" ForeColor="#585880" />
+    <OtherMonthDayStyle BackColor="transparent" ForeColor="#CCCCCC" />
+    <SelectedDayStyle ForeColor="#6464FE" BackColor="transparent" cssclass="theme_highlighted" />
+    <TitleStyle Font-Bold="True" BackColor="#CCCCCC" ForeColor="#585880" BorderColor="#CCCCCC" BorderWidth="1pt" cssclass="theme_header" />
+    <NextPrevStyle Font-Bold="True" ForeColor="#585880" BorderColor="transparent" BackColor="transparent" />
+    <DayStyle ForeColor="#000000" BorderColor="transparent"  BackColor="transparent" />
+    <SelectorStyle Font-Bold="True" ForeColor="#696969" BackColor="#F8F7F4" />
+    <WeekendDayStyle Font-Bold="False" ForeColor="#000000" BackColor="transparent" />
+    <DayHeaderStyle Font-Bold="True" ForeColor="#585880" BackColor="Transparent" />
+</asp:Calendar>
